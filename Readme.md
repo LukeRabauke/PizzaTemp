@@ -20,7 +20,9 @@ to be documented:
 - link amp
 - Zeit Laden
 - Zeit Entladen im Betrieb
-- 
+- add pics from device
+- pic from temp curve
+- code for notification
 
 
 
@@ -29,14 +31,14 @@ Part Name  | Link/Info
 ------------- | -------------
 Batteryshield for Wemos D1 Mini v1.1.0 (from Ali) | Add link 
 100k Ohm Resistor   | Add link 
-Wemos D1 Mini (from Ali)  | Add link 
-OLED Display 1.3" (from Ali)   | Add link 
-3D Print Housing (link to be added)  | Add link 
-Amplifier (Link to be added)  | Add link 
-Temperature Sensor (Link to be added)   | Add link 
+Wemos D1 Mini | Add link 
+OLED Display 1.3"    | Add link 
+3D Print Housing | Add link 
+Amplifier | Add link 
+Temperature Sensor | Add link 
 Jumper cable  | Add link 
--   | Add link 
--   | Add link 
+LiPo  | Add link 
+Toggle switch   | Add link 
 
 ## Short (and unsorted) Documentation
 ----------------------------------------------------------------------------------
