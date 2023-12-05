@@ -1,25 +1,44 @@
---> PIZZATemp <--
+# :pizza: PIZZATemp:pizza:
 
-Within this repo I am providing everything you will need to build your own high temperature (±450°C) thermometer for your smart home (bases on Home Assistant and ESPHome). 
-
-
+Hi 👋 I am a german amateur Pizzaiolo  🤌  loving to bake Pizza in my Ooni oven. 
 
 
+Within this repo I am providing everything you will need to build your own high temperature (±450°C) thermometer for your smart home (based on Home Assistant and ESPHome). 
+
+Usecase:
+I am heating up my Ooni Koda 16 on the balcony and dont want to leave the house checking the temperature manually (...its winter in Germany...) - but i also want to see the temperature when i am outside without a mobile/tablet, so I included a 1.3" OLED display.
+Reaching different temperature thresholds I get notified via Home Assistant to my smart phone. 
+
+
+to be documented:
+- 3d Housing Deckel
+- Regel für Benachrichtigung SoC unter 30%
+- link sensor
+- link amp
+- Zeit Laden
+- Zeit Entladen im Betrieb
+- 
 
 
 
-Short (and unsorted) Documentation
+## Part list:
+Part Name  | Link/Info
+------------- | -------------
+Batteryshield for Wemos D1 Mini v1.1.0 (from Ali) | Add link 
+100k Ohm Resistor   | Add link 
+Wemos D1 Mini (from Ali)  | Add link 
+OLED Display 1.3" (from Ali)   | Add link 
+3D Print Housing (link to be added)  | Add link 
+Amplifier (Link to be added)  | Add link 
+Temperature Sensor (Link to be added)   | Add link 
+Jumper cable  | Add link 
+-   | Add link 
+-   | Add link 
 
-List of components:
-- Batteryshield for Wemos D1 Mini v1.1.0 (from Ali)
-- 100k Ohm Resistor 
-- Wemos D1 Mini (from Ali)
-- OLED Display 1.3" (from Ali)
-- 3D Print Housing (link to be added)
-- Amplifier (Link to be added)
-- Temperature Sensor (Link to be added)
-
+## Short (and unsorted) Documentation
 ----------------------------------------------------------------------------------
+To set the threshold for a SoC Notification I collected some Data running the device until the battery shield's discharge protection turned off the device.
+
 Battery Voltage:
 ![Alt text](image-1.png)
 Battery SoC:
@@ -38,35 +57,44 @@ Spannungswert mit Faktor 3,886: 3.76V
 Real gemessene SPannung= 4,06V
 
 Faktor neu = Faktor * (4,06/3,886)= 4.19614
+
 ----------------------------------------------------------------------------------
-How tos:
-- How to ESPHome
-Update cli:
-    pip3 install -U esphome
-Build bin:
-    esphome compile YOURYAML.yaml
-Flashing via CLI:
-    esphome upload --device /dev/cu.usbserial-0257B058 pizzatemp.yaml
+
+How to ESPHome
+
+- Update cli:
+    - `pip3 install -U esphome`
+- Build bin:
+	- `esphome compile YOURYAML.yaml`
+- Flashing via CLI:
+    - `esphome upload --device /dev/cu.usbserial-0257B058 pizzatemp.yaml`
 ----------------------------------------------------------------------------------
-Berechnung SoC:
+How to calc SoC (kept really really simple and linear for the complete curve...):
+
 4.2V = 100%
+
 2.75V = 0%
 
 Prozentskala=(Wert−Untere Grenze) / (Obere Grenze−Untere Grenze)×100
 
-(x-2.75)/(4.2-2.75)*100
+percent = (x-2.75)/(4.2-2.75)*100
+
+If you are a lipo expert and do have a more accurate way to calc SoC (which can be done on the D1Mini) - feel free to reach out.
+
 ----------------------------------------------------------------------------------
 
 
 Source Reference:
 
-Batteryshield Infos:
+* Batteryshield Infos:
 https://iotspace.dev/wemos-d1-mini-battery-shield/
-Spannungsteiler Info:
+
+* Spannungsteiler Info:
 https://www.nikolaus-lueneburg.de/2016/12/spannungsteiler/
-Analogwerte mit ESPHome einlesen:
+
+* Analogwerte mit ESPHome einlesen:
 https://esphome.io/components/sensor/adc.html
-Info LiPo Akku:
+* Info LiPo Akku:
 https://www.lithium-polymer-akkus.de/wiederaufladbarer-lipo-akku-lp053450-3-7-v-900-mah-3-33wh/
 Entladungsabschaltung: 2,75 V
 Max. Ladespannung: 4,2 V ± 50 mV
