@@ -1,17 +1,17 @@
-Komponentenliste:
-- Batteryshield für Wemos D1 Mini v1.1.0
-- 100k Ohm Widerstand 
+List of components:
+- Batteryshield for Wemos D1 Mini v1.1.0
+- 100k Ohm Resistor 
 - Wemos D1 Mini
-- OLED 
-- 3D Print Gehäuse
-- Messverstärker
-- Temperaturfühler
+- OLED Display 1.3"
+- 3D Print Housing (link to be added)
+- Amplifier (Link to be added)
+- Temperature Sensor
 
 ----------------------------------------------------------------------------------
 Battery Voltage:
-
-Battery SoC:
 ![Alt text](image-1.png)
+Battery SoC:
+![Alt text](image.png)
 
 
 ----------------------------------------------------------------------------------
