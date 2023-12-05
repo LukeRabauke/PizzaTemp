@@ -1,19 +1,29 @@
+--> PIZZATemp <--
+
+Within this repo I am providing everything you will need to build your own high temperature (±450°C) thermometer for your smart home (bases on Home Assistant and ESPHome). 
+
+
+
+
+
+
+
+Short (and unsorted) Documentation
+
 List of components:
-- Batteryshield for Wemos D1 Mini v1.1.0
+- Batteryshield for Wemos D1 Mini v1.1.0 (from Ali)
 - 100k Ohm Resistor 
-- Wemos D1 Mini
-- OLED Display 1.3"
+- Wemos D1 Mini (from Ali)
+- OLED Display 1.3" (from Ali)
 - 3D Print Housing (link to be added)
 - Amplifier (Link to be added)
-- Temperature Sensor
+- Temperature Sensor (Link to be added)
 
 ----------------------------------------------------------------------------------
 Battery Voltage:
 ![Alt text](image-1.png)
 Battery SoC:
 ![Alt text](image.png)
-
-
 ----------------------------------------------------------------------------------
 Berechnung Faktor für Analogwandlung inkl Spannungsteiler:
 
@@ -45,9 +55,10 @@ Berechnung SoC:
 Prozentskala=(Wert−Untere Grenze) / (Obere Grenze−Untere Grenze)×100
 
 (x-2.75)/(4.2-2.75)*100
-
 ----------------------------------------------------------------------------------
 
+
+Source Reference:
 
 Batteryshield Infos:
 https://iotspace.dev/wemos-d1-mini-battery-shield/
