@@ -1,4 +1,4 @@
-# :pizza: PIZZATemp:pizza:
+# 🍕 PIZZATemp 🍕
 
 Hi 👋 I am a german amateur Pizzaiolo  🤌  loving to bake Pizza in my Ooni oven. 
 
