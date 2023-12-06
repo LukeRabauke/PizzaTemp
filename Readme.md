@@ -73,6 +73,8 @@ How to ESPHome
 	- `esphome compile YOURYAML.yaml`
 - Flashing via CLI:
     - `esphome upload --device /dev/cu.usbserial-0257B058 pizzatemp.yaml`
+- Build and Flashing OTA:
+    - `esphome run YOURYAML.yaml --device 192.168.178.28`
 ----------------------------------------------------------------------------------
 How to calc SoC (kept really really simple and linear for the complete curve...):
 
