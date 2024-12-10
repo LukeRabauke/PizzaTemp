@@ -27,18 +27,18 @@ to be documented:
 
 
 ## Part list:
-Part Name  | Link/Info
+Part Name  | Link/Info | Price
 ------------- | -------------
-Batteryshield for Wemos D1 Mini v1.1.0 (from Ali) | Add link 
-100k Ohm Resistor   | Add link 
-Wemos D1 Mini | Add link 
-OLED Display 1.3"    | https://de.aliexpress.com/item/1005005967766159.html?spm=a2g0o.order_list.order_list_main.198.306d5c5fMHsYTF&gatewayAdapt=glo2deu 
-3D Print Housing | Add link 
-Amplifier | Add link 
-Temperature Sensor | Add link 
-Jumper cable  | Add link 
-LiPo  | Add link 
-Toggle switch   | Add link 
+Batteryshield for Wemos D1 Mini v1.1.0 (from Ali) | not availabe anymore | 3€
+100k Ohm Resistor   | use any | -
+Wemos D1 Mini | use any | 
+OLED Display 1.3"    | https://de.aliexpress.com/item/1005005967766159.html | 
+3D Print Housing | Add link | -
+Amplifier | https://paradisetronic.com/products/adafruit-verstaerker-pt1000-widerstandsthermometer-max31865?_pos=1&_sid=f3c75bd0b&_ss=r Adafruit Verstärker für PT1000 Widerstandsthermometer, MAX31865, 3648 × 1 | 21€
+Temperature Sensor | Add link | 16€
+Jumper cable  | https://de.aliexpress.com/item/1005005616437142.html | -
+LiPo  | https://de.aliexpress.com/item/1005003198563309.html | 10€
+Toggle switch   | use any | -
 
 ## Short (and unsorted) Documentation
 ----------------------------------------------------------------------------------
