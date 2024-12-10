@@ -1,0 +1,17 @@
+alias: PizzaOven Max Temp 400c
+description: Notification for above 400
+mode: single
+triggers:
+  - entity_id: sensor.pizzatemp_pizza_oven_temperature
+    above: "25"
+    enabled: false
+    trigger: numeric_state
+  - entity_id: sensor.pizzatemp_pizza_oven_temperature
+    above: 400
+    trigger: numeric_state
+conditions: []
+actions:
+  - data:
+      message: PizzaOven above 400C!!!
+      title: Ciao Ragazzi
+    action: notify.mobile_app_iphone_von_lukas_2

@@ -14,16 +14,10 @@ Reaching different temperature thresholds I get notified via Home Assistant to m
 
 
 to be documented:
-- 3d Housing Deckel
 - Regel für Benachrichtigung SoC unter 30%
-- link sensor
-- link amp
-- Zeit Laden
 - Zeit Entladen im Betrieb
 - add pics from device
 - pic from temp curve
-- code for notification
-
 
 
 ## Part List:
@@ -41,6 +35,9 @@ to be documented:
 | Toggle switch                    | Use any                                                                                                                                                            | -     |
 
 ## Short (and unsorted) Documentation
+----------------------------------------------------------------------------------
+Added 400c_notification_example.yaml to show how I am triggering the temperature notification automation to my mobile.
+
 ----------------------------------------------------------------------------------
 To set the threshold for a SoC Notification I collected some Data running the device until the battery shield's discharge protection turned off the device.
 
