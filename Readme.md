@@ -14,10 +14,10 @@ Reaching different temperature thresholds I get notified via Home Assistant to m
 
 
 to be documented:
-- Regel für Benachrichtigung SoC unter 30%
-- Zeit Entladen im Betrieb
+- notification for SoC below <30%
+- max time from fully charged until device turns off
 - add pics from device
-- pic from temp curve
+- pic from temp curve in heat up
 
 
 ## Part List:
