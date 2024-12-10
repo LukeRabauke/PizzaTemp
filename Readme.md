@@ -32,7 +32,7 @@ Part Name  | Link/Info
 Batteryshield for Wemos D1 Mini v1.1.0 (from Ali) | Add link 
 100k Ohm Resistor   | Add link 
 Wemos D1 Mini | Add link 
-OLED Display 1.3"    | Add link 
+OLED Display 1.3"    | https://de.aliexpress.com/item/1005005967766159.html?spm=a2g0o.order_list.order_list_main.198.306d5c5fMHsYTF&gatewayAdapt=glo2deu 
 3D Print Housing | Add link 
 Amplifier | Add link 
 Temperature Sensor | Add link 
